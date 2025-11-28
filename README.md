@@ -35,7 +35,7 @@ This API Allows you to fetch prices of gold and currencies in PLN (USD Coming So
 
 ### Usage
 
-    #include "api.h"
+    #include "nbp.hpp"
     #include <iostream>
     
     int main() {
