@@ -23,7 +23,7 @@ FetchContent_Declare(
 set(CPR_BUILD_TESTS OFF CACHE BOOL "Don't build cpr tests" FORCE)
 FetchContent_MakeAvailable(cpr)
 
-add_executable(nbp main.cpp api.cpp)
+add_executable(nbp main.cpp nbp.cpp)
 
 target_link_libraries(nbp PRIVATE
     cpr::cpr
