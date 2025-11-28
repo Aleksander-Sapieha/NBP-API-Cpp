@@ -5,7 +5,7 @@ Features
 
 ### Why Use
 
-This API Allows you to fetch prices of gold and currencies in PLN (USD Coming Soon)
+This API Allows you to fetch prices of gold and currencies in PLN
 
     Get current gold price
 
