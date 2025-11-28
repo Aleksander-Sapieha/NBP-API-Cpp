@@ -8,6 +8,8 @@ namespace nbp{
 
     json getCurrentGoldPrice();
 
+    json getCurrentGoldPriceUSD();
+
     json getTodayGoldPrice();
 
     json getGoldPriceByDate(const std::string& date);
